@@ -151,7 +151,7 @@ extension SettingsViewController: UITextFieldDelegate {
     }
     
     func addDoneButtonToKeyborad( for textField: UITextField) {
-        textField.keyboardType = .numbersAndPunctuation
+        textField.keyboardType = .decimalPad
         
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
